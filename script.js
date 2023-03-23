@@ -1,9 +1,10 @@
 
 
 
-
-var arry=['prokash','sarker','anik','sarker','anik','sarker','anik','sarker','anik','sarker','anik','sarker','anik','sarker','anik'];
-var i;
-for(var item in arry){
-    console.log(arry[item]);
+function multiplicationTable(num){
+    for(i=1;i<=10;i++){
+        var product=num * i;
+        console.log(num+'x'+i+'='+product);
+    }
 }
+multiplicationTable(5);
